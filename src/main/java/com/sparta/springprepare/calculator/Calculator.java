@@ -3,6 +3,7 @@ package com.sparta.springprepare.calculator;
 import org.springframework.stereotype.Service;
 
 @Service
+// 간단한 테스트 코드
 public class Calculator {
   public Double operate(double num1, String op, double num2) {
     switch (op) {
